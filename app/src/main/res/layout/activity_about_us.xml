@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1405178.myapplication.AboutUs">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This application will provide you with a wide range of choices. The registration in this application is free, unlike other sites. It provides various categories too, in buyers’ accordance.
+It provides free home delivery to buyers. It allows users to create their own portfolio." />
+
+</RelativeLayout>

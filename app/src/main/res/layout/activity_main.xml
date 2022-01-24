@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1405178.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/Admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="admin" />
+
+    <Button
+        android:id="@+id/Customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Admin"
+        android:layout_alignStart="@+id/Admin"
+        android:layout_below="@+id/Admin"
+        android:layout_marginTop="36dp"
+        android:text="Customer" />
+
+    <Button
+        android:id="@+id/VArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Customer"
+        android:layout_alignStart="@+id/Customer"
+        android:layout_below="@+id/Customer"
+        android:layout_marginTop="25dp"
+        android:text="View Art" />
+
+    <Button
+        android:id="@+id/Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/VArt"
+        android:layout_alignStart="@+id/VArt"
+        android:layout_below="@+id/VArt"
+        android:layout_marginTop="48dp"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/AboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Customer"
+        android:layout_alignRight="@+id/Customer"
+        android:layout_below="@+id/Contact"
+        android:layout_marginTop="26dp"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/Payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/AboutUs"
+        android:layout_alignRight="@+id/AboutUs"
+        android:layout_below="@+id/AboutUs"
+        android:layout_marginTop="18dp"
+        android:text="Payment" />
+
+</RelativeLayout>
